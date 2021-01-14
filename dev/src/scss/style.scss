@@ -75,7 +75,10 @@ p{
   height: 64px;
   background: #00D66F;
   border:none;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
   margin: 0 auto;
   transition: background .3s ease;
   @media(min-width:768px){
